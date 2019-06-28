@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { PhotoSwipe } from 'react-photoswipe'
 import Image from './Image'
+import { Link } from "gatsby"
 
 import _kebabCase from 'lodash/kebabCase'
 
@@ -16,6 +17,7 @@ export const query = graphql`
         alt
         image
         title
+        link
       }
     }
   }
@@ -43,6 +45,7 @@ export default class Gallery extends Component {
           newImagesArr[index] = {
             src: img.image,
             title: img.title,
+            link: img.link,
             w: result.width,
             h: result.height
           }
@@ -84,12 +87,15 @@ export default class Gallery extends Component {
                   onClick={() => this.isOpen(true, index)}
                 >
                   <div>
+                    <a href={image.link}>
                     <Image
                       resolutions="small"
                       src={image.image}
                       alt={image.alt}
                     />
+                    </a>
                   </div>
+
                   {image.title && <figcaption>{image.title}</figcaption>}
                 </figure>
               ))}

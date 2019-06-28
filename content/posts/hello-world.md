@@ -1,8 +1,8 @@
 ---
 template: SinglePost
-title: Red
+title: Welcome to The VR School Online
 status: Featured / Published
-date: '2018-03-27'
+date:
 featuredImage: 'https://ucarecdn.com/94633346-778b-4474-8039-b18280ec73a3/'
 excerpt: >-
   Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam
@@ -10,7 +10,7 @@ excerpt: >-
   est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui
   pellentesque, lacinia risus ut, imperdiet eros.
 categories:
-  - category: News
+  - category:
 meta:
   canonicalLink: ''
   description: test meta description

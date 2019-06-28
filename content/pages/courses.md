@@ -2,51 +2,35 @@
 template: CoursePage
 slug: courses
 title: Courses
-featuredImage:
-subtitle: Get Started With VR Today.
+featuredImage: http://i64.tinypic.com/28kuhar.jpg
+subtitle: Get Started Building For VR. Enroll in a course today!
 section1: >-
-  ## This is a container component
+  # The Virtual Reality Industry Needs You.
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
-  tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi
-  a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  Virtual Reality is poised to explode in the future. What the industry needs is creative minds eager
+  to create a pioneer a new medium. Be that pioneer that's needed. Enroll in one of our courses.
 
-
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit
-  scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam
-  vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel
-  bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
-  vestibulum.
+  More to come soon!
 section2: |-
-  ## You can use videos, images and text.
 
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
-videoTitle: Also background videos, with poster image & title overlay.
+video: placeholder
+videoPoster: placeholder
+videoTitle: placeholder
 accordion:
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+  - description: placeholder
+    title: placeholder
+  - description: placeholder
+    title: placeholder
+  - description: placeholder
+    title: placeholder
+  - description: placeholder
+    title: placeholder
 gallery:
-  - alt: yellow rope image
-    image: 'https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/'
-    title: Yellow Rope
-  - alt: umbrellas
-    image: 'https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/'
-    title: a bunch of umbrellas
-  - alt: yellow ice cream
-    image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
-    title: Yellow Ice Cream
+  - alt: Creating Virtual Reality Experiences with React 360
+    image: http://i68.tinypic.com/ax020z.png
+    title: Creating Virtual Reality Experiences with React 360
+    link: https://www.udemy.com/creating-vr-experiences-with-react-360/
 meta:
-  description: This is a meta description.
-  title: Components Page
+  description:
+  title:
 ---
