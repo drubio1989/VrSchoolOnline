@@ -1,3 +1,7 @@
+# The VR School Online
+
+This repository is based off the template Yellowcake and deployed on Netlify. This repository hosts my site The VR School Online.
+
 # Yellowcake
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
